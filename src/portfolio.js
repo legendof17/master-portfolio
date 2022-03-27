@@ -7,13 +7,13 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Legendof17's Portfolio",
+  title: "Jaffer Ali's Portfolio - Legendof17",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Jaffer Ali Portfolio",
     type: "website",
-    url: "http://legendof17.netlify.app/",
+    url: "https://legendof17.software/",
   },
 };
 
@@ -43,16 +43,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Gmail",
-    link: "mailto:legendof17gta@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/thelegendof17",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+    name: "Instagram",
+    link: "https://www.instagram.com/legendof17/",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
   {
     name: "Facebook",
@@ -61,10 +55,16 @@ const socialMediaLinks = [
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/legendof17/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Twitter",
+    link: "https://twitter.com/thelegendof17",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
+  {
+    name: "Gmail",
+    link: "mailto:legendof17gta@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
 ];
 
@@ -261,45 +261,45 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -356,13 +356,37 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science and Engineering",
       logo_path: "srmist_logo.png",
       alt_name: "SRMIST Chennai",
-      duration: "2018 - Present",
+      duration: "2018 - 2022 (Present)",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have received apreciation from respected officials for consistently best performance in both academics and college activities.",
       ],
       website_link: "https://www.srmist.edu.in",
+    },
+    {
+      title: "St. Peter's Higher Secondary School",
+      subtitle: "Higher Secondary Certification",
+      logo_path: "school_logo.png",
+      alt_name: "SPHSS Chennai",
+      duration: "2016 - 2018",
+      descriptions: [
+        "⚡ I have studied major science stream subjects like Physics, Chemistry, Mathematics, Computer Science, etc.",
+        "⚡ Apart from the studies, I was a district Chess Champion",
+      ],
+      website_link: "",
+    },
+    {
+      title: "St. Peter's Higher Secondary School",
+      subtitle: "Higher Secondary Certification",
+      logo_path: "school_logo.png",
+      alt_name: "SPHSS Chennai",
+      duration: "2015 - 2016",
+      descriptions: [
+        "⚡ I have studied general subjects during my Secondary School times.",
+        "⚡ Apart from the studies, I used to be write content for poems and songs during my 10th standards",
+      ],
+      website_link: "",
     },
   ],
 };
@@ -530,6 +554,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Big Data, PySpark & Scala Intern (Genc Next)",
+          company: "Cognizant Technology Solution",
+          company_url: "https://www.cognizant.com/",
+          logo_path: "cognizant_logo.jpg",
+          duration: "Feb 2022 - Present",
+          location: "Work From Home until CoVid Relaxation",
+          description:
+            "CCognizant is an American multinational information technology services and consulting company. It is headquartered in Teaneck, New Jersey, United States. Cognizant is part of the NASDAQ-100 and trades under CTSH. I have started up my internship with Big data, PySpark and Scala based projects.",
+          color: "#0071C5",
+        },
+        {
           title: "Machine Learning Intern",
           company: "SmartKnower",
           company_url: "https://www.smartknower.com/",
@@ -540,18 +575,6 @@ const experience = {
             "I have worked on project of predicting Sentiment Analysis for the customer reviews using Scikit-learn and exported that into JS formatted model, the fully working model has been hosting in heroku platform. Also did a Image Classification and Data Pre-Processing for the minor project with various available data on the internet.",
           color: "#ee3c26",
         },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
       ],
     },
     // {
@@ -653,6 +676,7 @@ const contactPageData = {
     title: "Address",
     subtitle: "Chennai, Tamil Nadu, India 600013",
     avatar_image_path: "address_image.svg",
+    location_map_link: "https://goo.gl/maps/giCFQMqxHipZxzEF7",
     // location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
